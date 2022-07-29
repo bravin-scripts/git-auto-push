@@ -7,6 +7,7 @@ username=$(whoami)
 echo "Hello, ${username}"
 
 add_commit () {
+    echo "Adding changed files..."
     git add . # TODO: change to be dynamic
     echo "Please input your commit message and press enter."
     read -p "Commit Message: " commit_message
