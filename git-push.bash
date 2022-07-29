@@ -53,7 +53,7 @@ add_origin () {
                     break
                     ;;
                 [nN][oO]|[nN])
-                    echo "Leaing origin url unchanged"
+                    echo "Leaving origin url unchanged"
                     break
                     ;;
                 *)
